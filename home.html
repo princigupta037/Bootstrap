@@ -76,6 +76,24 @@ A simple alert-danger with <a href="#" class="alert-link"><br>
                <label class="btn btn-secondary active">
                      <input type="radio" name="options" id="option1" autocomplete="off" radio> Radio
                   </label>  
+
+         <br><br>
+<!-- Button group (Nesting) -->
+<h2> Nesting</h2>
+         <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+            <button type="button" class="btn btn-warning"> 1 </button>
+            <button type="button" class="btn btn-danger"> 2</button>
+            <div class="btn-group" role="group">
+               <button id="btnGroupDrop1" type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-hospopup="true" aria-expanded="false">
+               Dropdown
+               </button>
+            <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+               <a class="dropdown-item" href="#"> Dropdown link</a>
+               <a class="dropdown-item" href="#" > Dropdown link</a>
+            </div>
+         </div>
+      </div>
+<br><br>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
